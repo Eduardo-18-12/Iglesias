@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ed">
+  <title>Portal administrativo | Comunidad de Fe</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#202b3b;--cream:#f8f5ed}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif}h1,h2,h3,h4{font-family:"Playfair Display",serif}
+    dialog.admin-dialog{width:min(1280px,calc(100% - 1.5rem));height:min(92vh,900px);max-width:none;max-height:92vh;border:0;border-radius:24px;padding:0;color:var(--ink);box-shadow:0 28px 90px #121d2d66;overflow:hidden}
+    dialog.admin-dialog::backdrop{background:#142238bb;backdrop-filter:blur(4px)}.admin-scroll{max-height:calc(92vh - 82px);overflow:auto}.admin-nav-active{background:#243b5a;color:#fff}
+    .admin-table th,.admin-table td{padding:12px 14px;text-align:left;border-bottom:1px solid #e8ece7;vertical-align:top}.admin-table th{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#657284;background:#f8f5ed}
+    .admin-input{width:100%;border:1px solid #d8ded7;border-radius:12px;background:#fff;padding:10px 12px;color:#202b3b}.admin-label{display:block;margin-bottom:6px;font-size:12px;font-weight:700;color:#526070}.admin-card{border:1px solid #e5e9e3;border-radius:16px;background:#fff;padding:18px}
+  </style>
+</head>
+<body>
+  <main id="adminRoot" class="min-h-screen"><section class="mx-auto max-w-2xl p-8"><h1 class="text-3xl">Portal administrativo</h1><p class="mt-3 text-slate-600">Cargando el acceso…</p><noscript><p class="mt-4 text-red-700">Activa JavaScript para usar el portal.</p></noscript></section></main>
+  <script src="admin.js"></script>
+</body>
+</html>
